@@ -1,0 +1,8 @@
+{
+  "name": "needed",
+  "version": "1.0.3",
+  "description": "Very simple dependency injection for js",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT"
+}
