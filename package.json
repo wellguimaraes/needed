@@ -1,8 +1,11 @@
 {
   "name": "needed",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Very simple dependency injection for js",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
   "author": "",
   "license": "MIT"
 }
