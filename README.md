@@ -10,12 +10,13 @@ Register dependencies
 var register = require('needed').register;
 // ...
 register('database', myDbObj);
+register('notifier', myNotifier);
 ```
 Use them elsewhere
 ```javascript
 var using = require('needed').using;
-using(['database'], function(db) {
+using(['database','notifier'], function(db, notifier) {
     db.query(...);
-    // ...
+    notifier.push(...);
 });
 ```
